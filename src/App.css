@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background-image: linear-gradient(to right, cyan, pink, cyan);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +30,33 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.counters {
+  padding: 10px 10px 10px 10px;
+}
+
+.span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container {
+  border-width:10px;
+  border-style:solid;
+  border-color: rgb(46, 131, 131);
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hamster {
+  margin-left: 42%;
+}
+
+.hamster-text {
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
