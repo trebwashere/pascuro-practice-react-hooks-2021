@@ -6,12 +6,6 @@ function CounterGroup(props) {
     function generateCounterList() {
         return new Array(props.counterSize).fill(Date.now());
     }
-
-    const [sumSize, setSumSize] = useState(0);
-
-    function updateSumSize(increment) {
-        setSumSize(sumSize+increment);
-    }
     
     const counterList = generateCounterList();
 

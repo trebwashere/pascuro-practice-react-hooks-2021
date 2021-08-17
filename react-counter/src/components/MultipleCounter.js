@@ -1,7 +1,7 @@
 import {useState} from "react";
 import CounterSizeGenerator from "./CounterSizeGenerator";
 import CounterGroup from "./CounterGroup";
-import logo from './hamster.gif'
+import logo from '../resources/hamster.gif'
 
 function MultipleCounter() {
     const [counterSize, setCounterSize] = useState(5);
